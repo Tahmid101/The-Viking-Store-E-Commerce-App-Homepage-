@@ -13,6 +13,7 @@ body{
   width: 256px;
   float: left;
   text-align: center;
+  cursor: pointer;
 }
 .nav h1{
   font-size: 35px;
@@ -43,27 +44,27 @@ body{
   float: right;
 }
  .viking-image{
-  height: 660px;
+  height: 760px;
   width: 100%;
   padding-top: 70px;
   border-bottom: 2px solid gray;
   border-top: 2px solid gray;
 }
 .viking-image img{
-  height: 480px;
+  height: 580px;
   width: 100%;
 }
 .viking-image .heading{
   font-size: 60px;
   text-align: left;
-  margin-top: 80px;
+  margin-top: 120px;
   padding-left: 28px;
   position: absolute;
 }
 .cta .top{
   font-size: 32px;
   margin-top: 0px;
-  padding-top: 32px;
+  padding-top: 30px;
   padding-bottom: 32px;
   border-top: 2px solid #BCA823;
   border-bottom: 3px solid #BCA823;
@@ -92,6 +93,12 @@ body{
   background: #222;
   float: left;
   width: 400px;
+}
+.content .products .firstrow{
+  height: 380px;
+}
+.content .products .lastrow{
+  height: 380px;
 }
 .content .products .product .name{
   color: #eee;
@@ -124,9 +131,9 @@ body{
   background: #dac538;
   cursor: pointer;
 }
-.image:hover{
-  font-size: 30px;
+.content .products .product .image:hover{
   font-weight: bold;
+  font-size: 26px;
 }
 .content .products .product .button{
   text-align: center;
@@ -134,18 +141,24 @@ body{
   padding-bottom: 12px;
   width: 100%;
 }
-.content .products .product .button a{
-  border-width: 0 4px 4px 0 ;
+.content .products .product .button > a{
   text-decoration: none;
-  border-style: solid;
   background: #BCA823;
   color: #222;
   box-shadow: 2px 2px #555555;
   border-radius: 2px;
   padding: 8px;
   font-weight: bold;
-  border: none;
   cursor: pointer;
+}
+.content .products .product .button > a:hover{
+  background: #6B6800;
+  color:#FFF;
+  -ms-transition: background 0.2s linear 0s, color 0.2s linear 0s;
+  -webkit-transition: background 0.2s linear 0s, color 0.2s linear 0s;
+  -o-transition: background 0.2s linear 0s, color 0.2s linear 0s;
+  -moz-transition: background 0.2s linear 0s, color 0.2s linear 0s;
+  transition: background 0.2s linear 0s, color 0.2s linear 0s;
 }
 .pages{
   text-align: center;
@@ -212,4 +225,8 @@ ul.pagination li a:hover:not(.active){
   text-decoration: none;
   vertical-align: super;
   font-size: 18px;
+}
+#footer .contact .info a:hover{
+  color: #A7AAAB;
+  font-size: 22px;
 }
