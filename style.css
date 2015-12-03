@@ -2,7 +2,6 @@ body{
   width: 100%;
   margin-left: 0;
 }
-
 .nav{
   position: fixed;
   z-index: 100;
@@ -77,25 +76,29 @@ body{
   font-weight: bold;
   padding-top: 24px;
   padding-bottom: 24px;
-  border-bottom: 2px solid #222;
   text-align: center;
   color: #808080;
 }
 .content .products{
-   margin-top: 100px;
+   margin-top: 64px;
    max-width: 960px;
+   margin-left: auto;
+   margin-right: auto;
+   height: 750px;
 }
 .content .products .product{
   max-width: 304px;
   margin: 0 8px 64px 8px;
   background: #222;
-  display: block;
+  float: left;
+  width: 400px;
 }
 .content .products .product .name{
   color: #eee;
   text-align: center;
   padding-top: 12px;
   padding-bottom: 12px;
+  width: 100%;
   font-size: 20px;
   font-family: cursive;
 }
@@ -116,7 +119,7 @@ body{
   right: -5px;
   height: 30px;
   width: 70px;
-  text-align: center;
+  line-height: 32px;
   vertical-align: middle;
   background: #dac538;
   cursor: pointer;
@@ -129,6 +132,7 @@ body{
   text-align: center;
   padding-top: 12px;
   padding-bottom: 12px;
+  width: 100%;
 }
 .content .products .product .button a{
   border-width: 0 4px 4px 0 ;
@@ -142,9 +146,6 @@ body{
   font-weight: bold;
   border: none;
   cursor: pointer;
-}
- .button a:hover{
-  background-color: #B8F70A;
 }
 .pages{
   text-align: center;
